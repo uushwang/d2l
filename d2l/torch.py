@@ -290,7 +290,7 @@ class Animator:
     def __init__(self, xlabel=None, ylabel=None, legend=None, xlim=None,
                  ylim=None, xscale='linear', yscale='linear',
                  fmts=('-', 'm--', 'g-.', 'r:'), nrows=1, ncols=1,
-                 figsize=(8, 6)):
+                 figsize=(7, 5)):
         """Defined in :numref:`sec_softmax_scratch`"""
         # Incrementally plot multiple lines
         if legend is None:
